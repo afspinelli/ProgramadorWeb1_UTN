@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Ahsoka Spinelli</title>
+</head>
+<body>
+    <form action="" method="">
+        <p>
+            <label for="nom">Nombre</label>
+            <input type="text" name="nombre" placeholder="Escriba aqui..." />
+        </p>
+        <p>
+            <label for="last">Apellido</label>
+            <input type="text" name="apellido" placeholder="Escriba aqui..." />
+        </p>
+        <p>
+            <label for="email">Correo</label>
+            <input type="email" name="email" placeholder="Escriba aqui..." />
+        </p>
+        <p>
+            <label for="sexo">Sexo</label>
+            <ul>
+                <li>
+                    <input type="radio" name="Sexo" value="hombre">
+                    <label>Hombre</label>
+                </li>
+                <li>
+                    <input type="radio" name="Sexo" value="mujer">
+                    <label>Mujer</label>
+                </li>
+            </ul>
+        </p>
+        <label>Mascotas</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="mascotas[]" value="gatos" id="gatos">
+                <label for="responsable">Gato</label>
+            </li>
+            <li>
+                <input type="checkbox" name="mascotas[]" value="perros" id="perros">
+                <label for="responsable">Perro</label>
+            </li>
+            <li>
+                <input type="checkbox" name="mascotas[]" value="tortugas" id="tortugas">
+                <label for="responsable">Tortuga</label>
+            </li>
+            <li>
+                <input type="checkbox" name="mascotas[]" value="cobayos" id="cobayos">
+                <label for="responsable">Cobayo</label>
+            </li>
+        </ul>
+        <label for="cantidad">Cantidad total</label>
+        <select name="cantidad">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="+5">+5</option>
+        </select>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+        <a href="CV.html" target="">Volver</a>
+        </p>
+    </form>
+</body>
+</html>
