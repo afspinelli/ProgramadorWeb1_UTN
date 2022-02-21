@@ -1,0 +1,26 @@
+body{
+    background-color:#2b3b57;
+    color:aquamarine;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:24px;
+    display: flex;
+    justify-content: center;
+}
+#lmascotas{
+    text-shadow: 3px 3px 1.5px rgba(0, 0, 0, 0.733);
+}
+#formbox{
+    color:rgb(133, 247, 255);
+    border-radius: 25px 25px 25px 25px;
+    background-color:rgba(255, 255, 255, 0.068);
+    width: 500px;
+    height: 780px;
+    /* margin: 0 auto; */
+    margin-top:60px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+}
+ 

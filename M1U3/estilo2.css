@@ -1,0 +1,97 @@
+body{
+    background-color:#505050;
+    color:aquamarine;
+    font-family:'Courier New', Courier, monospace;
+    font-size:medium
+}
+#titulo{
+    position:relative;
+	margin-top:50px;
+	margin-left:50px;
+    padding-left:20px;
+    padding-right:18px;
+    box-shadow: 10px 10px 5px 2px rgba(0,0,0,0.75);
+    border-radius: 35px 0px 35px 0px;
+    border: 5px outset #4834ff;
+    background-color: #4c5869;
+    width: 289px;
+    height: 75px;
+}
+#fotoperfil{
+    position:fixed;
+    top: 50px;
+    left: 500px;
+    margin-left:0px;
+	width: 300px;
+	height: 300px;
+    background: url(img/fotoperfil1.jpg);
+    box-shadow: 10px 10px 5px 2px rgba(0,0,0,0.75);
+    border-radius: 0px 70px 0px 70px;
+    border: 5px outset #ff6550;
+}
+p{
+    background-color:rgb(28, 72, 122);
+    color:tomato;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium
+}
+h2{
+    color:tomato;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 1.5px rgba(0, 0, 0, 0.733);
+    margin-left:60px;
+    text-align: right;
+    width: 310px;
+}
+h3{
+    color:tomato;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 1.5px rgba(0, 0, 0, 0.733);
+    margin-left:60px;
+    text-align: right;
+    width: 310px;
+}
+h4{
+    color:tomato;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 1.5px rgba(0, 0, 0, 0.733);
+}
+#lista1{
+    color:rgb(255, 133, 154);
+    text-shadow: 3px 3px 1.5px rgba(0, 0, 0, 0.733);
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(90deg,#4fc29f -10%, rgb(80, 80, 80) 80%);
+    margin-left:60px;
+}
+#lista2{
+    color:rgb(133, 247, 255);
+    text-shadow: 3px 3px 1.5px rgba(0, 0, 0, 0.733);
+    width: 300px;
+    height: 100px;
+    background: radial-gradient(ellipse farthest-corner at center center, rgba(255,131,201,0.72) 10%, rgba(80,80,80,0.87) 70%);
+    margin-left:60px;
+}
+.parrafo2{
+    color:rgb(255, 255, 255);
+    background-color:rgb(83, 102, 96);
+    text-shadow: 3px 3px 1.5px rgba(0,0,0,0.6);
+}
+.parrafo3{
+    color:rgb(255, 255, 255);
+    background-color:rgb(102, 83, 92);
+    text-shadow: 3px 3px 1.5px rgba(0,0,0,0.6);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sectorperfil{
+    color:rgb(133, 247, 255);
+    width: 700px;
+    margin-left:60px;
+}
+#formulario{
+    color:rgb(133, 247, 255);
+    text-align: center;
+    width: 700px;
+    margin-left:60px;
+}
+}
