@@ -1,0 +1,44 @@
+.navbar {
+    background: url(../img/header.jpg) no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+/*     filter: blur(2px) hue-rotate(204deg);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.75);
+    border-radius: 5px 5px 5px 5px;
+    border-top: 2px outset #7affdeb2;
+    border-bottom: 2px outset #7affdeb2; */
+    text-shadow: 2px 2px 1.5px #f700ffb2;
+}
+
+.marca {
+    color: #7affde;
+}
+
+footer {
+    background-color: #aaa;
+}
+
+h1, h2 {
+    font-family: "Alfa Slab One", cursive;
+}
+
+.hero {
+    background: url(../img/header.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: #ffffff;
+}
+
+.hero p{
+    text-shadow: 2px 2px 1.5px rgba(247, 0, 255, 0.699);
+}
+
+.hero h1{
+    text-shadow: 2px 2px 1.5px rgba(247, 0, 255, 0.699);
+}
+
+.historytext {
+    background: #a8a8a865;
+    padding: 20px;
+}
