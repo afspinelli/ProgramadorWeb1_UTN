@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: url(../img/back.png) no-repeat;
+    padding-left: 20px;
+    /*     filter: blur(2px) hue-rotate(204deg);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.75);
+    border-radius: 5px 5px 5px 5px;
+    border-top: 2px outset #7affdeb2;
+    border-bottom: 2px outset #7affdeb2; */
+    font-family: 'Major Mono Display', monospace;
+    font-size: large;
+    text-shadow: 2px 2px 5px #f700ffb2;
+}
+
+.navbar li:hover {
+    font-size: larger;
+    text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+.titulo {
+    font-size: xx-large;
+    text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url(../img/back.png) no-repeat;
+}
+
+footer {
+    background-color: #00fff236;
+}
+
+h1, h2 {
+    font-family: 'Major Mono Display', monospace;
+    text-shadow: 2px 2px 10px #f700ffb2;
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* font-family: 'Audiowide', cursive;               X
+font-family: 'Bungee Shade', cursive;               X
+font-family: 'Codystar', cursive;                   X
+font-family: 'Limelight', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Megrim', cursive;
+font-family: 'Monoton', cursive;                    X
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Neonderthaw', cursive;                X
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poiret One', cursive;                 X
+font-family: 'Rajdhani', sans-serif;                X
+font-family: 'Raleway Dots', cursive;               X
+font-family: 'Righteous', cursive; */
+
+.hero {
+    /*     background: url(../img/header.jpg) no-repeat;
+    background-size: cover; */
+    height: 50vh;
+    min-height: 940px;
+    color: #000000;
+    font-size: large;
+}
+
+.hero p {
+    text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+.hero h1 {
+    /* text-shadow: 2px 2px 10px #f700ffb2; */
+}
+
+.historybox {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 10px #ffffffb2;
+    text-align: justify;
+    /* background-color: rgb(230, 230, 230);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.75);
+    border-radius: 15px 15px 15px 15px; */
+}
+
+.fotorama {
+    /* background-color: #aaa; */
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.col .card {
+    background: url(../img/back.png) no-repeat;
+    background-size: contain;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.col .card .card-img-top {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.col .card .card-title {
+    color: #ffffff;
+}
+
+.col .card .card-text {
+    color: #000000;
+}
+
+.contactformb {
+    font-family: 'Orbitron', sans-serif;
+}
+
+label {
+    text-shadow: 1px 1px 10px #ffffffb2;
+}
+
+.form-control:focus {
+    outline: none !important;
+    border-color: #f700ffb2;
+    box-shadow: 0 0 10px #00fff2b2;
+}
+
+.submitbuttonb {
+    color: #ffffff;
+    transition: 0.7s;
+    background-color: #f700ff50;
+    border-color: #00fff2b2;
+}
+
+.submitbuttonb:hover {
+    color: #000000;
+    transition: 0.7s;
+    background-color: #00fff250;
+    border-color: #f700ffb2;
+}
+
+.submitbuttonb:focus {
+    color: #ffffff;
+    transition: 0.7s;
+    background-color: #ffffff50;
+    border-color: #ffffff;
+}
+
+footer a {
+    color: #000000;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
