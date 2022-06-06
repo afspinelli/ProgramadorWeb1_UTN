@@ -1,0 +1,1 @@
+La idea es armar una seccion donde en vez de novedades muestre turoriales en forma de modal con la imagen fija de la portada del video y luego reproducir el video dentro del cuerpo del modal. (aun no se bien como integrar esa parte, donde se abra una ventana dentro del modal y reproduzca un video que venga de youtube por ejemplo)
