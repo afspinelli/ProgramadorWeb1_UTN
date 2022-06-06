@@ -82,9 +82,9 @@
     <div id="tutorials" class="row py-4">
         <div class="col-md-8 offset-md-2 py-3">
             <h2>Tutorials</h2>
-            <ul class="list-tutorials">
+            <ul class="list-tutorials row">
                 {{#each tutorials}}
-                <li><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#tutorialsModal{{id}}"><img
+                <li class="col"><a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#tutorialsModal{{id}}"><img
                             src="" alt="">{{title}}</a>
                 </li>
                 {{/each}}
